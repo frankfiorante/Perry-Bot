@@ -1,0 +1,19 @@
+{
+  "name": "perry-cam",
+  "version": "1.0.0",
+  "description": "discord bot to execute a bash command",
+  "main": "discord.js",
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./discord.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frank Fiorante",
+  "license": "ISC"
+}
